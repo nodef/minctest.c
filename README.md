@@ -2,7 +2,7 @@
 
 
 Minctest is a very minimal unit-testing "framework" written in ANSI C and
-implemented in a single header file. It's handy when you want some real simple
+implemented in a single header file, by [Lewis Van Winkle](https://github.com/codeplea). It's handy when you want some real simple
 unit tests for a small project.
 
 Basically, it implements assertion and equal functions. It'll track and time
@@ -10,6 +10,18 @@ how many tests pass and fail. Failed tests will also display which line the
 failing test code was on.
 
 There is a [Node.js port here](https://github.com/codeplea/minctest-node) and a [Lua port here.](https://github.com/codeplea/minctest-lua)
+
+## Installation
+
+Run:
+```bash
+$ npm i minctest.c
+```
+
+And then include `minctest.h` as follows:
+```c
+#include "node_modules/minctest.c/minctest.h"
+```
 
 ## Features
 
@@ -68,3 +80,10 @@ Minctest is used in almost all of my C projects, including:
 You can check those out to see how Minctest is used in practice.
 
 If you're using Minctest in your project, let me know. I could add a link back.
+
+<br>
+<br>
+
+
+[![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/minctest.c)

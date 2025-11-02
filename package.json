@@ -1,0 +1,15 @@
+{
+  "name": "minctest.c",
+  "version": "0.3.0",
+  "description": "tiny unit testing framework for ANSI C; Lewis Van Winkle (2015).",
+  "keywords": ["c", "library", "unit test", "testing", "framework"],
+  "license": "Zlib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/minctest.c.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodef/minctest.c/issues"
+  },
+  "homepage": "https://github.com/nodef/minctest.c#readme"
+}
